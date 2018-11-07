@@ -1,5 +1,12 @@
 /* CSS skeleton*/
 
+title{
+    justify-content: center;
+    align-content: center;
+    text-emphasis: bold;
+    font-family: "Courier New", Courier, monospace;
+}
+
 .nav{
     list-style-type: none;
     margin: 0px;
