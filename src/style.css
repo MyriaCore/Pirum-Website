@@ -1,0 +1,58 @@
+/* CSS skeleton*/
+
+title{
+    justify-content: center;
+    align-content: center;
+    text-emphasis: bold;
+    font-family: "Courier New", Courier, monospace;
+}
+
+.nav{
+    list-style-type: none;
+    margin: 0px;
+    padding: 5px;
+    border: #000;
+    border-width: 2px;
+}
+
+.nav a:hover{
+    background-color: #000;
+    color: white;
+}
+
+.contentbox{
+
+}
+
+.background{
+
+}
+
+.sidebar{
+
+}
+
+.header{
+
+}
+
+.footer{
+
+}
+
+.articles{
+
+}
+
+@media only screen  and (min-width:999px){
+
+}
+
+
+@media screen and (min-width:400px) and (max-width:998px){
+
+}
+
+@media screen and (max-width:399px){
+    
+}
