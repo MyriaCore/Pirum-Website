@@ -1,12 +1,14 @@
 /* CSS skeleton*/
 
-.navbar{
+.nav{
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 5px;
+    border: #000;
+    border-width: 2px;
 }
 
-.navbar a:hover{
+.nav a:hover{
     background-color: #000;
     color: white;
 }
