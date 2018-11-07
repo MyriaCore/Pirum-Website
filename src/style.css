@@ -30,12 +30,28 @@
 
 }
 
+ul{
+
+}
+
 .footer{
 
 }
 
-.articles{
+.content-container{
 
+}
+
+.content-text{
+
+}
+
+.content-interactive{
+
+}
+
+.content-mediagrid{
+    
 }
 
 @media only screen  and (min-width:999px){
