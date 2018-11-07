@@ -1,0 +1,17 @@
+> git pull <name> master
+// Pulls changes from repository down to local machine
+
+> git status
+// shows info about the current config
+
+> git add <filename>
+// adds the file to be tracked
+
+> git remote <add/remove> <name> <link to repo>
+// manages remote repositories
+
+> git commit -m "<commit message>"
+// commits the currewntly tracked changes to your local branch
+
+> git push <name> master
+// pushes the commits on your local machine to the repository
