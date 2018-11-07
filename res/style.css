@@ -1,13 +1,6 @@
 /* CSS skeleton*/
 
-title{
-    justify-content: center;
-    align-content: center;
-    text-emphasis: bold;
-    font-family: "Courier New", Courier, monospace;
-}
-
-.nav{
+.header{
     list-style-type: none;
     margin: 0px;
     padding: 5px;
@@ -15,7 +8,7 @@ title{
     border-width: 2px;
 }
 
-.nav a:hover{
+.header a:hover{
     background-color: #000;
     color: white;
 }
