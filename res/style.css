@@ -1,0 +1,14 @@
+/* CSS skeleton*/
+.navbar{
+list-style-type: none;
+margin: 0;
+padding: 0;}
+.navbar a:hover{
+background-color: #000;
+color: white;}
+.contentbox{
+}
+.background{
+}
+.sidebar{
+}
