@@ -33,8 +33,14 @@
 .bgimg{
     background-image: url("../res/assets/landingimg.jpg" );
     min-height: 100%;
-    width:100%;
-    position: static;
+    min-width: 1024px;
+      
+    width: 100%;
+    height: auto;
+      
+    position: fixed;
+    top: 0;
+    left: 0;
 }
 
 .navbar {
