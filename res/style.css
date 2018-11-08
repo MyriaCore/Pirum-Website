@@ -1,17 +1,50 @@
 /* CSS skeleton*/
 
-.header{
+.header li{
     list-style-type: none;
     margin: 0px;
     padding: 5px;
     border: #000;
     border-width: 2px;
+    display: inline;
 }
 
-.header a:hover{
-    background-color: #000;
-    color: white;
+.header img{
+    float: left;
+    width: 60px;
+    height: 60px;
+    background: #575859;
 }
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    height: 60px;
+    overflow: hidden;
+    background-color: #575859;
+}
+
+.selected{
+    background-color: darkolivegreen;
+}
+
+.header li{
+    float:left;
+}
+
+.header li a{
+    display: block;
+    color: lightgreen;
+    text-align: center;
+    padding: 15px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
 
 .contentbox{
 
