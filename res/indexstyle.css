@@ -1,76 +1,73 @@
 /* CSS skeleton*/
 /* USE FOR ALL PAGES OTHER THAN INDEX*/
 
-/*
-.header{
-    width:100%;
-    position:fixed;
-    top: 0px;
-    left:0px;
-}
-
-.header li{
-    list-style-type: none;
-    margin: 0px;
-    padding: 5px;
-    border: #000;
-    border-width: 2px;
-    display: inline;
-}
-
-.header img{
-    float: left;
-    width: 60px;
-    height: 60px;
-}
-*/
-
-.image{
-    float: left;
-    width: 60px;
-    height: 60px;
-    background: #575859;
-}
-
-
 .container {
-    position: relative;
+    position: fixed;
+}
+
+.center{
+    bottom: 48%;
+    right: 41%;
+    background-color: black;
+    border-style: solid;
+    border-width: 1px 0px 0px 1px;
+    opacity: .8;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-shadow: 4px 4px 3px grey;
+    position: fixed;
+    width: 275px;
     text-align: center;
     color: white;
 }
 
-.center{
-    position: absolute;
-    bottom: 50%;
-    right: 50%;
-    background-color: black;
-    opacity: 70%;
-    color: white;
-    padding-left: 15px;
-    padding-right: 15px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+
+.pad{
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.animate{
+    font-family: monospace; 
+    overflow: hidden;
+    border-right: .15em solid rgb(255, 255, 255); /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+        typing 2.5s steps(30, end),
+        blinking-cursor .8s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+  
+  /* The typewriter cursor effect */
+  @keyframes blinking-cursor {
+    from, to { border-color: transparent }
+    50% { border-color: rgb(255, 255, 255); }
 }
 
 h3{
     font-size: 30px;
 }
 
-.navbar {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    height: 60px;
-}
 
-/*
 .navbarindex {
     list-style-type: none;
     margin: 0;
     padding: 0;
     height: 60px;
     overflow: hidden;
+    position: relative;
 }
-
 
 .header li{
     float:left;
@@ -82,29 +79,15 @@ h3{
     text-align: center;
     padding: 15px 16px;
     text-decoration: none;
+    font-family: monospace; 
+    font-size: 20px;
+    text-shadow: black 1px 1px 2px;
 }
 
 li a:hover {
     background-color: #111;
 }
 
-
-.contentbox{
-
-}
-
-.background{
-
-}
-
-.sidebar{
-
-}
-
-.header{
-
-}
-*/
 
 footer{
     position: fixed;
@@ -116,6 +99,7 @@ footer{
     font-size: 8px;
     color: white;
     background-color: #575859;
+    opacity: .9;
 }
 
 .bgimg{
@@ -132,9 +116,6 @@ footer li{
     display: inline;
 }
 
-.articles{
-
-}
 
 @media only screen  and (min-width:999px){
 
