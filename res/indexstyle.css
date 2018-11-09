@@ -85,7 +85,7 @@ h3{
 }
 
 li a:hover {
-    background-color: #111;
+    background-color: rgba(79, 79, 79, 0.2);
 }
 
 
