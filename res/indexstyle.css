@@ -7,7 +7,7 @@
 
 .center{
     bottom: 48%;
-    right: 41%;
+    right: 22.5%;
     background-color: black;
     border-style: solid;
     border-width: 1px 0px 0px 1px;
@@ -16,9 +16,13 @@
     padding-right: 15px;
     box-shadow: 4px 4px 3px grey;
     position: fixed;
-    width: 275px;
+    width: auto;
     text-align: center;
     color: white;
+}
+
+b{
+    font-weight: 700;
 }
 
 @keyframes typing {
