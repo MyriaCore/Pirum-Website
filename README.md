@@ -2,6 +2,9 @@
 ## About
 Pirum is a website written by Team 3 from the 2018 CS146 Web Design course. This Readme file contains documentation on how to get started developing for it.
 
+### Important Links
+- Pirum's [GitHub Pages Website](https://team3146.github.io/Pirum-Website/src/index.html)
+
 ## Documentation
 For future reference, `<thing1 | thing2 | thing3>` mean you can type either `thing1`, `thing2`, or `thing3` as an option.
 ### Tooling Docs
