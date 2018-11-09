@@ -31,7 +31,7 @@
 }
 
 .bgimg{
-    background-image: url("../res/assets/landingimg.jpg" );
+    background-image: url("../assets/bg/landingimg.jpg");
     min-height: 100%;
     min-width: 1024px;
     width: 100%;
