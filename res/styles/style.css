@@ -77,7 +77,8 @@ li a:hover {
 }
 
 
-.contentbox{
+.content{
+    padding-top: 60px;
 
 }
 
@@ -89,9 +90,6 @@ li a:hover {
 
 }
 
-.header{
-
-}
 
 footer{
     position: fixed;
