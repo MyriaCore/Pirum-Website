@@ -21,10 +21,16 @@
 .ourStory{ /* Feel free to change, I just centered it temporarily */
     text-align: center;
 }
-
 .aboutUs{ /* Feel free to change, I just centered it temporarily */
     text-align: center;
 }
+
+.contact{ 
+  
+    width: 550px;
+    padding: 20px;
+    margin: 30px auto 0 auto;
+  }
 
 .content{
     display: block;
