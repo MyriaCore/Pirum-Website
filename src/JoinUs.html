@@ -3,6 +3,9 @@
     <head>
         <link rel="stylesheet" type="text/css" href="../res/styles/style.css">
         <link rel="icon" href="../res/assets/icon/icon.svg" />
+        <!--Extenal Script used to link to Bitcoin Address-->
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script><script type="text/javascript" src="https://blockchain.info/Resources/js/pay-now-button.js"></script>
+
         <title>Pirum&trade; - Join Us</title>
     </head>
     <body>
@@ -18,10 +21,46 @@
             </nav>
         <div class="content-area">
             <div class="content">
-                
-                <p>Plz gib moneies</p>
+                <!--BTC Donate Button-->
+                <div style="font-size:16px;margin:0 auto;width:300px" class="blockchain-btn"
+                     data-address="174SzfXXRRzqr9CgrNiCFgbhR2yDGR2aC9"
+                     data-shared="false">
+                    <div class="blockchain stage-begin">
+                        <img src="https://blockchain.info/Resources/buttons/donate_64.png"/>
+                    </div>
+                    <div class="blockchain stage-loading" style="text-align:center">
+                        <img src="https://blockchain.info/Resources/loading-large.gif"/>
+                    </div>
+                    <div class="blockchain stage-ready">
+                        <p align="center">Please Donate To Bitcoin Address: <b>[[address]]</b></p>
+                        <p align="center" class="qr-code"></p>
+                    </div>
+                    <div class="blockchain stage-paid">
+                        Donation of <b>[[value]] BTC</b> Received. Thank You.
+                    </div>
+                    <div class="blockchain stage-error">
+                        <font color="red">[[error]]</font>
+                    </div>
+                </div>
+
+                <!--Need to change this video later to something more appropriate-->
+                <a href="https://www.youtube.com/embed/bUo1PgKksgw">
+                    <img src="../res/assets/donatepaypal.png" width="300px" height="175px" />
+                </a>
+                <!--At some point this should probably be more serious lol-->
+                <p>
+                    Once you become partners with Pirum&trade;, you will recieve multiple benefits such as:
+                    <ul>
+                        <li>Losing the will to live</li>
+                        <li>Feeling the pain of not studying for a Herc quiz</li>
+                        <li>Losing multiple muni to the allure of fancy tech words</li>
+                        <li>etc</li>
+                    </ul>
+                </p>
+
             </div>
         </div>
+
         <footer>
 			<p> Pirum is not responsible for any and all loss of money, hair, health, time, sanity, will to live, etc etc, 
 			caused by or related to the purchasing and/or investing in of a Pirum product. As the company has never sold a product, we are
