@@ -30,6 +30,9 @@
 .aboutHeader{
     text-align: center;
 }
+body{ 
+    background-color: lightgray;
+}
 .contact{ 
   
     width: 550px;
