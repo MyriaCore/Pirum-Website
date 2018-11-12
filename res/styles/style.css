@@ -21,10 +21,19 @@ body{
     background: #f4f5f4; 
 }
 .contact{ 
-    width: 550px;
-    padding: 20px;
-    margin: 30px auto 0 auto;
+    margin: 0; 
+    width:100%;  
+    background-color: rgba(255,255,255,0.7);
+    box-shadow: 5px 10px 18px #888888;
+    max-width: 700px; 
+    height: auto; 
+    padding: 10px 10px 10px 10px;
+    margin-top: 50px; 
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-bottom: 50px;
   }
+  
 .contactForm{
     border-radius: 15px;
     border: 1px solid gray;
@@ -71,10 +80,27 @@ body{
     position: relative;
 }
 
+.iframecont{
+    justify-content: center;
+    float:center;
+}
+
 iframe{
-    padding-top: 40px;
     align-content: center;
-    padding-bottom: 40px;
+    padding-bottom: 25px;
+    padding-top: 20px;
+    padding-left:5px;
+    padding-right:5px;
+    margin: 0; 
+    width:100%;  
+    background-color: rgba(255,255,255,0.7);
+    box-shadow: 5px 10px 18px #888888;
+    max-width: 700px; 
+    height: auto; 
+    margin-top: 50px; 
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-bottom: 50px;
 }
 
 
@@ -120,13 +146,6 @@ li a:hover {
     margin-top: 60px;
 }
 
-.background{
-
-}
-
-.sidebar{
-
-}
 
 
 footer{
@@ -154,7 +173,10 @@ footer li{
 }
 
 @media only screen  and (min-width:999px){
-
+    iframe
+    {
+        margin-left: inherit;
+    }
 }
 
 
