@@ -39,11 +39,12 @@ body{
     padding: 20px;
     margin: 30px auto 0 auto;
   }
-  .contactForm{
-      border-radius: 15px;
-      border: 1px solid gray;
-      padding: 10px;
-  }
+.contactForm{
+    border-radius: 15px;
+    border: 1px solid gray;
+    padding: 10px;
+    margin: 3px;
+}
 
 .content{
     display: block;
