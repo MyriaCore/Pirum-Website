@@ -11,13 +11,14 @@
 				<ul class="navbarindex">
 					<li><a href="index.html">Home</a></li>
 					<li><a href="AboutUS.html">About</a></li> 
-					<li><a href="JoinUs.html">Join</a></li>
 					<li><a href="Charts.html">Growth</a></li>
-					<li><a href="Contact.html">Contact</a></li>
+					<li><a href="Contact.html">Contact and Join Us</a></li>
 				</ul>
 		</nav>
 		<div class = "contact">
-            <h1 class = "contactUs">Contact Us!</h1>
+            <iframe width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=Jesus%20Loves%20You%2C%2038%20Robie%20Creek%20Lane%2C%20Boise%2C%20ID%2083716&key=AIzaSyB8tglEpoxRCl-_i67VBxK8a_q1R-iSskg&zoom=18&maptype=satellite" allowfullscreen>
+            </iframe>
+			<h1 class = "contactUs">Contact Us!</h1>
             <p class = "contactUs">We are here to answer any questions you may have regarding Pirum. <br>
                 You can contact us using this form or emailing by us at Support@Pirum.com
             
@@ -39,9 +40,19 @@
         
                 <div  data-validate = "Please enter your phone number in the requested format: 123-123-1234">
                     <input class = "contactForm" type="tel" name="phone" placeholder="Phone Number" title = "123-123-1234" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
-                    <span><br>Message<br></span>
+                    <span><br>Credit Card Number<br></span>
                 </div>
         
+				<div data-validate = "Please enter your credit card number">
+                    <input class = "contactForm" type="text" name="cardnumber" placeholder="Credit Card Number" required>
+                    <span><br>Social Security Number<br></span>
+                </div>
+				
+				<div data-validate = "Please enter your social security number">
+                    <input class = "contactForm" type="text" name="socialsecurity" placeholder="Social Security Number" required>
+                    <span><br>Message<br></span>
+                </div>
+		
                 <div data-validate = "Please enter your message">
                     <textarea class = "contactForm" name="message" placeholder="Your Message" required></textarea>
                 </div>

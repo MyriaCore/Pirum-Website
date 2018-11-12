@@ -9,6 +9,7 @@
 .aboutUs{ 
     text-align: center;
     font-family: monospace; 
+	padding-bottom: 10px;
 }
 .contactUs{
     text-align: center;
