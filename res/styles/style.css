@@ -62,6 +62,7 @@ body{
     float: left;
     width: 60px;
     height: 60px;
+    margin-right: 5px;
 }
 
 .image{
@@ -113,6 +114,7 @@ iframe{
 
 li a:hover {
     background-color: rgba(79, 79, 79, 0.2);
+    border-radius: 5px;
 }
 
 

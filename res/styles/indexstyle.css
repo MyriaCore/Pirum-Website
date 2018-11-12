@@ -47,6 +47,8 @@ b{
         blinking-cursor .8s step-end infinite;
 }
 
+
+
 /* The typing effect */
 @keyframes typing {
     from { width: 0 }
@@ -73,6 +75,13 @@ h3{
     position: relative;
 }
 
+.header img {
+    float: left;
+    width: 60px;
+    height: 60px;
+    margin-right: 5px;
+}
+
 .header li{
     float:left;
 }
@@ -90,6 +99,7 @@ h3{
 
 li a:hover {
     background-color: rgba(79, 79, 79, 0.2);
+    border-radius: 5px;
 }
 
 .image{
