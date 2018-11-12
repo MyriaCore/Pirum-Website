@@ -104,6 +104,9 @@ body{
     margin-bottom: 50px;
 }
 
+.nobull{
+    list-style-type: none;
+}
 
 
 .navbar {
@@ -186,6 +189,7 @@ footer li{
 @media screen and (min-width:400px) and (max-width:998px){
 .header li a{
     padding: 15px 12px;
+    
 }
 }
 
@@ -193,5 +197,6 @@ footer li{
     .header li a{
         padding: 15px 12px;
     }
+    iframe{width:340px}
 
 }
