@@ -18,18 +18,28 @@
 
 }
 
-.ourStory{ /* Feel free to change, I just centered it temporarily */
+.ourStory{ 
     text-align: center;
 }
-.aboutUs{ /* Feel free to change, I just centered it temporarily */
+.aboutUs{ 
     text-align: center;
 }
-
+.contactUs{
+    text-align: center;
+}
+.aboutHeader{
+    text-align: center;
+}
 .contact{ 
   
     width: 550px;
     padding: 20px;
     margin: 30px auto 0 auto;
+  }
+  .contactForm{
+      border-radius: 15px;
+      border: 1px solid gray;
+      padding: 10px;
   }
 
 .content{
