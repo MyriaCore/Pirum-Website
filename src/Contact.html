@@ -17,34 +17,33 @@
 			</ul>
 		</nav>
 		<div class = "contact">
-            <h1>Contact Us!</h1>
-            <p>We are here to answer any questions you may have regarding Pirum. <br>
-                You can contact us using this form or emailing us at Support@Pirum.com
+            <h1 class = "contactUs">Contact Us!</h1>
+            <p class = "contactUs">We are here to answer any questions you may have regarding Pirum. <br>
+                You can contact us using this form or emailing by us at Support@Pirum.com
             
             </p>
-            <form>
+            <form class = "contactUs">
                 <span>
-                    Contact Us
+                    Full Name<br>
                 </span>
         
                 <div data-validate = "Please enter your full name">
-                    <input type="text" name="name" placeholder="Full Name" required>
-                    <span></span>
+                    <input class = "contactForm" type="text" name="name" placeholder="Full Name" required>
+                    <span><br>Email Address<br></span>
                 </div>
         
                 <div data-validate = "Please enter your email">
-                    <input type="email" name="email" placeholder="E-mail" required>
-                    <span></span>
+                    <input class = "contactForm" type="email" name="email" placeholder="E-mail" required>
+                    <span><br>Phone Number<br></span>
                 </div>
         
-                <div data-validate = "Please enter your phone number in the requested format: 123-123-1234">
-                    <input type="tel" name="phone" placeholder="Phone Number" title = "123-123-1234" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
-                    <span></span>
+                <div  data-validate = "Please enter your phone number in the requested format: 123-123-1234">
+                    <input class = "contactForm" type="tel" name="phone" placeholder="Phone Number" title = "123-123-1234" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+                    <span><br>Message<br></span>
                 </div>
         
                 <div data-validate = "Please enter your message">
-                    <textarea name="message" placeholder="Your Message" required></textarea>
-                    <span></span>
+                    <textarea class = "contactForm" name="message" placeholder="Your Message" required></textarea>
                 </div>
         
                 <div>
