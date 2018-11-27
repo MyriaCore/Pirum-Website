@@ -21,6 +21,8 @@ window.onload = () => {
     COOKIE.addEventListener("click", function(){
         document.getElementById('backimg').src="../res/assets/cookie.jpg";
         document.getElementById('backimg').className = "cookiebg"
+
+        document.getElementById("title").innerHTML = "All your cookie belong to Herc"
         
 
     });
