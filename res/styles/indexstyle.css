@@ -6,10 +6,10 @@
 }
 
 .cookiebg{
-    min-height: 1080px;
-    min-width: 1024px;
+    min-height: 300px;
+    min-width: 300px;
     width: 100%;
-    height: auto;
+    height:120%;
     background-size:cover;
     position: fixed;
     top: 0;
