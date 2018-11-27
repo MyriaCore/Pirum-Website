@@ -13,7 +13,7 @@ window.onload = () => {
     var decline = document.getElementById("no");
 
     decline.addEventListener("mouseover", function(){
-        alert("Are you sure you want to do that?");
+        alert("Website Machine Broke, please dial the H-E-R-C Hotline");
     });
 
     var COOKIE = document.getElementById("yes");
