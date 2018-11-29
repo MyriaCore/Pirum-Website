@@ -1,4 +1,3 @@
-console.log("hello World");
 
 window.onload = () => {
 
@@ -66,6 +65,7 @@ function formData(){
     var credit = document.forms["myForm"]["cardnumber"].value
     var ss = document.forms["myForm"]["social security"].value
     console.log(credit);
+    console.log(ss);
 
     var div = document.createElement("div");
 
@@ -81,7 +81,6 @@ function formData(){
     div.insertBefore(formdiv)
 
     document.getElementsById("formdiv").style.visibility = "hidden";
-
 
 
 }
