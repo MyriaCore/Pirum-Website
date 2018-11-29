@@ -17,7 +17,7 @@
     float: bottom;
 }
 
-.center{
+#center{
     bottom: 48%;
     right: 22.5%;
     background-color: black;
@@ -31,6 +31,19 @@
     width: auto;
     text-align: center;
     color: white;
+}
+
+#left{
+    bottom: 5%;
+    right: 24.5%;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: fixed;
+    width: auto;
+    text-align: left;
+    color: white;
+    float: bottom;
+    text-shadow: 1px 2px black;
 }
 
 b{
@@ -54,6 +67,7 @@ b{
     white-space: nowrap; /* Keeps the content on a single line */
     margin: 0 auto; /* Gives that scrolling effect as the typing happens */
     letter-spacing: .15em; /* Adjust as needed */
+    animation-name: typing, blinking-cursor;
     animation: 
         typing 2.5s steps(30, end),
         blinking-cursor .8s step-end infinite;
@@ -61,13 +75,13 @@ b{
 
 
 
-/* The typing effect */
+
 @keyframes typing {
     from { width: 0 }
     to { width: 100% }
 }
   
-  /* The typewriter cursor effect */
+  
   @keyframes blinking-cursor {
     from, to { border-color: transparent }
     50% { border-color: rgb(255, 255, 255); }
@@ -136,7 +150,14 @@ footer{
     font-family: "Trebuchet MS",Helvetica,sans-serif;
     opacity: .9;
     background-color: #252e39;
+    visibility: visible;
+    display: none;
+    -webkit-animation-name: fadeIn; /* Fade in the background */
+    -webkit-animation-duration: 0.4s;
+    animation-name: fadeIn;
+    animation-duration: 0.4s;
 }
+
 
 #cookie{
     font-size: 23px;
@@ -182,6 +203,26 @@ footer{
 
 footer li{
     display: inline;
+}
+
+@-webkit-keyframes slideIn {
+    from {bottom: -300px; opacity: 0} 
+    to {bottom: 0; opacity: 1}
+}
+
+@keyframes slideIn {
+    from {bottom: -300px; opacity: 0}
+    to {bottom: 0; opacity: 1}
+}
+
+@-webkit-keyframes fadeIn {
+    from {opacity: 0} 
+    to {opacity: 1}
+}
+
+@keyframes fadeIn {
+    from {opacity: 0} 
+    to {opacity: 1}
 }
 
 

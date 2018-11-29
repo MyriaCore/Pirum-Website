@@ -151,6 +151,11 @@ li a:hover {
     margin-top: 60px;
 }
 
+iframe{
+    width: 700px; 
+    height:450px; 
+    border: 0;
+}
 
 
 footer{
@@ -197,6 +202,6 @@ footer li{
         padding: 15px 6px;
         font-size:14px;
     }
-    iframe{width:340px}
+    iframe{width:340px;}
 
 }
