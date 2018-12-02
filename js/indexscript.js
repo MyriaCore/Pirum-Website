@@ -3,7 +3,7 @@ window.onload = () => {
 
     var decline = document.getElementById("no");
 
-    decline.addEventListener("mouseover", function(){
+    decline.addEventListener("click", function(){
         alert("Website Machine Broke, please dial the 1-800-HERC Hotline");
     });
     

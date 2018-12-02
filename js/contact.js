@@ -41,15 +41,21 @@ function formData(){
     console.log(credit);
     console.log(ss);
 
-    var div = document.createElement("div");
-
-    var strcred = document.createTextNode("Your Credit Card Number is" + credit);
-    var ssid = document.createTextNode("Social Security Number is" + ss);
-    var gen = document.createTextNode("Thanks for Your Generosity!!!");
+    var strcred = ("Your Credit Card Number is " + credit);
+    var ssid = ("Social Security Number is " + ss);
+    var gen = document.createTextNode("Thanks for Your Generosity!!! ");
+    var para = document.createElement("p");
+    para.appendChild(gen);
     
-    var formdiv = document.getElementById("formdiv");
+    var title = document.getElementById("Conttitle");
+    var form = document.getElementById("form");
+    var social = document.getElementById("socS");
     
-    formdiv.innerHTML = strcred;
+    title.innerHTML = strcred;
+    form.innerHTML = "";
+    social.innerHTML = ssid;
+    social.appendChild(para);
+    
     
 
 
